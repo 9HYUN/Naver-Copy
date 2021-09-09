@@ -1,17 +1,28 @@
+/* #--> id, .은 class */
 /* 선택자 */
 #header-center {
     margin: 0 auto;
     width: 1080px;
 }
 
-#header-search > h1 {
-width: 280px;
+/*#header-search a {
+    text-decoration: none;
+}*/
+
+#header-search h1 {
+width: 198px;
+height: 48px;
 display: inline-block;
+background-image: url(./sp_main_57f073.png);
+background-position: -2px -3000px;
+/*background: url(./sp_main_57f073.png) -3px -3000px no-repeat;
+}*/
+#header-search h1 span {
+    display: none;
+#header-search h2 {
+    display: none;  /* 스크린 리더에 안읽힘 */
 }
 
-#header-search h2 {
-    display: none;
-}
 
 #header-search fieldset {
     width: 520px;
@@ -21,3 +32,11 @@ display: inline-block;
     자손 선택자
 }
 */
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
