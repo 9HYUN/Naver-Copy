@@ -3,3 +3,21 @@
     margin: 0 auto;
     width: 1080px;
 }
+
+#header-search > h1 {
+width: 280px;
+display: inline-block;
+}
+
+#header-search h2 {
+    display: none;
+}
+
+#header-search fieldset {
+    width: 520px;
+}
+/*
+#header-center h1 {
+    자손 선택자
+}
+*/
