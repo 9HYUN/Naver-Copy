@@ -11,40 +11,32 @@
     </head>
     <body>
         <header>
-            <div id="header-center"><!--가운데 정렬용 div-->
-            
-            <span>
-                네이버를 시작페이지로
-            </span>
-            <div style="display: inline-block">
-                쥬니어네이버
-            </div>
-            <div style="display: inline-block">
-                해피빈
-            </div>
-            <div id="header-search">
-                <a href="http://www.naver.com">
-                 <h1>
-                  <span>네이버 </span>
-                 </h1>
+            <div id="header-center"> <!-- 가운데 정렬용 div -->
+              <!-- 속성명: 속성값; 속성명2: 속성값2;  -->
+              <!-- 인라인 스타일 -->
+              <div>
+                <span>네이버를 시작페이지로</span>
+                <span>쥬니어네이버</span>
+                <span>해피빈</span>
+              </div>
+              <div id="header-search">
+                <a href="https://www.naver.com">
+                  <h1>
+                      <span>네이버</span>
+                  </h1>
                 </a>
-        <h2>
-            검색창
-        </h2>
-        <fieldset>
-            <legend></legend>
-            <!-- <textarea></textarea>  -->
-            <!-- <input type="checkbox" />  체크박스 -->
-            <!-- <input type="checkbox" />  체크박스 중복가능 -->
-            <!-- <input type="radio" name="group" />  하나 고를때 밑에꺼랑 그룹함 -->
-            <!-- <input type="radio" name="group" /> -->
-            <input />
-            
-            <button>검색</button>  
-        </fieldset>
+                <h2 class="blind">검색창</h2>
+                <fieldset>
+                  <legend class="blind">검색</legend>
+                  <input />
+                  <button>
+                    <span class="blind">검색</span>
+                    <span id="search-image"></span>
+                  </button>
+                </fieldset>
+              </div>
             </div>
-            </div>
-        </header>
+          </header>
         <div>
         <ul> <!-- unordered list -->  
             <li>메일</li> <!-- unordered item -->  
